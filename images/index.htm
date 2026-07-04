@@ -1,0 +1,97 @@
+	
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>welcome to Admin Panel</title>
+
+
+ <link rel="stylesheet" href="admin_style.css" media="all"/>
+</head>
+
+<body>
+
+
+	
+<div class="container">
+
+
+<div id="sidebar">
+<h2>Manage Content:</h2>
+<ul id="menu">
+<li><a href="index.php?view_users">View users</a></li>
+<li><a href="index.php?view_posts">View posts</a></li>
+<li><a href="index.php?view_comments">View comments</a></li>
+<li><a href="index.php?view_topics">View topics</a></li>
+<li><a href="index.php?add_topic">Add new topic</a></li>
+<li><a href="admin_logout.php">Admin logout</a></li>
+</ul>
+</div>
+
+<div id="content">
+<h2 style="color:blue; text-align:center; padding:5px;">
+ :Manage your content!
+</h2>
+<table align="center" width="800" bgcolor="skyblue">
+	<tr bgcolor="orange" border="1">
+	<th>S.N</th>
+	<th>Name</th>	
+<th>Image</th>
+<th>Delete</th>
+
+</tr>
+
+		<tr align="center">
+<td>1</td>			
+<td>Farah</td>
+<td><img src="../users/g.jpg" width='50' height='50'/></td>
+<td><a href="delete_user.php?delete=13">Delete</a></td>
+
+
+		</tr>
+		<tr align="center">
+<td>2</td>			
+<td>sara ali</td>
+<td><img src="../users/gf.jpg" width='50' height='50'/></td>
+<td><a href="delete_user.php?delete=12">Delete</a></td>
+
+
+		</tr>
+		<tr align="center">
+<td>3</td>			
+<td>Areej</td>
+<td><img src="../users/hj.jpg" width='50' height='50'/></td>
+<td><a href="delete_user.php?delete=11">Delete</a></td>
+
+
+		</tr>
+		<tr align="center">
+<td>4</td>			
+<td>alia</td>
+<td><img src="../users/Cute-Girls-DPz-Pics.jpg" width='50' height='50'/></td>
+<td><a href="delete_user.php?delete=9">Delete</a></td>
+
+
+		</tr>
+		<tr align="center">
+<td>5</td>			
+<td>ali shah</td>
+<td><img src="../users/uyu.jpg" width='50' height='50'/></td>
+<td><a href="delete_user.php?delete=5">Delete</a></td>
+
+
+		</tr>
+		<tr align="center">
+<td>6</td>			
+<td>Maarij Shah</td>
+<td><img src="../users/Selena-Gomez-.jpg" width='50' height='50'/></td>
+<td><a href="delete_user.php?delete=1">Delete</a></td>
+
+
+		</tr>
+</table>
+			  </div>
+
+</div>
+</body>
+</html>
